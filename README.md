@@ -4,6 +4,7 @@ Provides weekly scheduled motivational updates tailored for Teams including a GI
 A PowerShell script that promotes team collaboration and morale by sharing daily motivational messages and GIFs in Microsoft Teams. The bot dynamically calculates the countdown to Friday and posts weekday-specific motivational content to keep your team engaged and inspired.
 
 **Features**
+
 Daily Countdown to Friday: Automatically calculates the number of days until Friday and shares it with your team.
 
 Motivational GIFs: Fetches random GIFs from Giphy based on the theme of each weekday (e.g., "motivation" for Monday, "celebration" for Friday).
@@ -13,6 +14,7 @@ Microsoft Teams Integration: Posts messages directly to Microsoft Teams using ad
 Customizable Themes: Tags for GIFs can be tailored to match your team's preferences.
 
 **How It Works**
+
 The script determines the current day of the week in AEST (Australian Eastern Standard Time).
 
 It calculates how many days are left until Friday.
@@ -22,6 +24,7 @@ A random GIF is fetched from Giphy based on a predefined tag for the day.
 The script formats a motivational message and sends it to Microsoft Teams via a webhook.
 
 **Setup Instructions**
+
 **Prerequisites**
 
 Microsoft Teams Webhook URL:
@@ -33,6 +36,7 @@ Giphy API Key:
 Sign up for a free API key at Giphy Developers - https://developers.giphy.com/
 
 **Installation**
+
 Clone this repository:
 bash
 git clone https://github.com/yourusername/teams-motivation-countdown-bot.git
@@ -44,6 +48,7 @@ Microsoft Teams Webhook URL ($webhookUrl).
 Giphy API Key ($giphyApiKey).
 
 **Usage**
+
 Run the script manually:
 powershell
 .\scripts\daily_countdown.ps1
@@ -62,6 +67,7 @@ Automate with Ansible AWX:
 I have created a J2 template for this script with all required parameters for survey
 
 **Example Output**
+
 Below is an example of how the message appears in Microsoft Teams:
 
 Adaptive Card Example:
