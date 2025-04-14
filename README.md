@@ -52,16 +52,23 @@ powershell
 .\scripts\daily_countdown.ps1
 
 Automate it by scheduling the script to run daily using Windows Task Scheduler:
+
 Open Task Scheduler.
+
 Create a new task.
+
 Set the trigger to run daily at a specific time.
+
 Add an action to execute PowerShell and point it to daily_countdown.ps1.
 
 Automate with Azure Runbooks:
+
 Create Azure Runbook
+
 Create schedule
 
 Automate with Ansible AWX:
+
 I have created a J2 template for this script with all required parameters for survey
 
 **Example Output**
