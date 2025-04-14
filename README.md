@@ -1,7 +1,7 @@
 # Weekly-Motivation-collaboration-Bot-for-Teams-Slack
 Provides weekly scheduled motivational updates tailored for Teams including a GIF
 
-A PowerShell script that promotes team collaboration and morale by sharing daily motivational messages and GIFs in Microsoft Teams. The bot dynamically calculates the countdown to Friday and posts weekday-specific motivational content to keep your team engaged and inspired.
+This is a PowerShell script that promotes team collaboration and morale by sharing daily motivational messages and GIFs in Microsoft Teams. The bot dynamically calculates the countdown to Friday and posts weekday-specific motivational content to keep your team engaged and inspired.
 
 **Features**
 
