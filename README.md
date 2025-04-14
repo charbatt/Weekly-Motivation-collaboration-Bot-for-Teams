@@ -38,11 +38,6 @@ Sign up for a free API key at Giphy Developers - https://developers.giphy.com/
 **Installation**
 
 Clone this repository:
-bash
-git clone https://github.com/yourusername/teams-motivation-countdown-bot.git
-Navigate to the project directory:
-bash
-cd teams-motivation-countdown-bot
 Update the script (scripts/daily_countdown.ps1) with your:
 Microsoft Teams Webhook URL ($webhookUrl).
 Giphy API Key ($giphyApiKey).
