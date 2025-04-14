@@ -38,8 +38,11 @@ Sign up for a free API key at Giphy Developers - https://developers.giphy.com/
 **Installation**
 
 Clone this repository:
+
 Update the script (scripts/daily_countdown.ps1) with your:
+
 Microsoft Teams Webhook URL ($webhookUrl).
+
 Giphy API Key ($giphyApiKey).
 
 **Usage**
